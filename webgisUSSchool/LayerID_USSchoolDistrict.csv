@@ -1,0 +1,42 @@
+Category,Name,2000,2010,Dynamic service
+Population Race,% non-Hispanic white-full count,0,41,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% non-Hispanic black-full count,1,42,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% Hispanic-full count,2,43,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% Asian-full count,3,44,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+Population SES,median household income,4,45,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% below poverty,5,46,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% vacant housing units,6,47,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% occupied housing units,7,48,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% foreign born,8,49,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% recent immigrants,9,50,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% speak lang other than English,10,51,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+Child Race,% kids non-Hispanic white,11,52,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% kids non-Hispanic black,12,53,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% kids Hispanic,13,54,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% kids Asian,14,55,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+Child Poverty Immigration,% kids living below poverty,15,56,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% kids foreign born,16,57,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% kids speak lang other than English,17,58,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+Segregation Indices ,segregation white/black,18,59,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,segregation white/hispanic,19,60,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,segregation white/asian,20,61,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+Exposure Indices,p* isolation of white student,21,62,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,p* isolation of black student,22,63,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,p* isolation of hispanic student,23,64,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,p* isolation of asian student,24,65,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+Student Race,% non-Hispanic white,25,66,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% non-Hispanic black,26,67,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% Hispanic,27,68,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,% Asian,28,69,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+Child Size,average non-Hispanic white,29,70,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,average non-Hispanic black,30,71,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,average Hispanic,31,72,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,average Asian,32,73,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+Free Lunch Program,% free lunches,33,74,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,segregation rich from poor students,34,75,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,P* free lunch for rich students,35,76,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,P* free lunch for poor students,36,77,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,P* free lunch for white students,37,78,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,P* free lunch for black students,38,79,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,P* free lunch for hispanic students,39,80,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer
+,P* free lunch for asian students,40,81,http://darcgcit.ad.brown.edu:6080/arcgis/rest/services/USSchool/USSchool1all/MapServer

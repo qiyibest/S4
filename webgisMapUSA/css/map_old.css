@@ -1,0 +1,146 @@
+html, body, #map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    overflow: hidden;
+    font-family: "Trebuchet MS";
+}
+
+#bcMain {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+#cpTitle {
+  width: 100%;
+  min-height:6%;
+  padding-top:.5em;
+  padding-bottom:.25em;
+  background-color:#f3f0ea;
+}
+
+#mapTitle {
+  clear:left;
+  float:left;
+  display:block;
+  padding-left:10px;
+}
+
+#toolbar{
+  float:right;
+  display:block;
+  padding-right:20px;
+}
+
+#mapTitle h1 {
+  padding:0;
+  margin:0;
+  font-family:"Vitesse SSm A","Vitesse SSm B",Vitesse,Arial,sans-serif;
+  font-weight:bold;
+}
+
+/* Sidebar */
+#cpLeading {
+    width: 17.5%;
+}
+
+#divLayers{
+  display:block;
+  clear:both;
+}
+
+#lppanel div{
+  padding:10px;
+}
+
+#divLegend {
+  display:block;
+  clear:both;
+  padding-left:10px;
+}
+
+.esriLegendServiceLabel{
+  visibility: hidden;
+}
+#toolbt{
+    float: right;
+    width: 240px;
+    height: 20px;
+    margin: 5px;
+    border: 0px solid #73AD21;  
+}
+
+#divPrint {
+ /* display:block;
+  clear:both;*/
+   float: right;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+    border: 0px solid #73AD21;  
+}
+
+/*#toolbt{
+  display:block;
+  clear:both;
+}
+
+
+#divPrint {
+  display:block;
+  clear:both;
+}*/
+
+/* Map Area */
+#cpCenter {
+  height: 100%;
+}
+
+#divSearch {
+  position: absolute;
+  left: 80px;
+  top: 20px;
+  z-index: 995;
+}
+
+#divBasemapClick {
+  position:absolute;
+  top: 20px;
+  right:40px;
+  z-index:996;
+  background-color: #f3f0ea;
+  color: #000;
+  padding: 5px;
+}
+
+#basemapGallery {
+  z-index: 997;
+}
+
+/*#divBasemapContent {
+  width:380px;
+  height:280px;
+  overflow:auto;
+  z-index: 998;
+}*/
+
+#divBasemapContent {
+  width:380px;
+  height:120px;
+  overflow:auto;
+  z-index: 998;
+}
+
+#BasemapToggle {
+    position: absolute;
+    right: 20px;
+    z-index: 999;
+}
+
+/* Footer */

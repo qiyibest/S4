@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>S4 ArcGIS Map Web App Template</title>
+ 
+  <!--<link rel="stylesheet" href="http://js.arcgis.com/3.16/dijit/themes/nihilo/nihilo.css"/>-->
+  <link rel="stylesheet" href="https://js.arcgis.com/3.16/dijit/themes/claro/claro.css">
+   
+  <link rel="stylesheet" href="https://js.arcgis.com/3.16/esri/css/esri.css"/>
+  <link rel="stylesheet" href="css/map.css" type="text/css"/>
+
+  <!-- Calcite Bootstrap -->
+  <link rel="stylesheet" href="https://esri.github.io/calcite-maps/dist/css/calcite-bootstrap.min-v0.2.css">
+
+  <!-- Calcite Maps -->
+  <link rel="stylesheet" href="https://esri.github.io/calcite-maps/dist/css/calcite-maps-arcgis-4.x.min-v0.2.css">
+  
+  <!-- arcgis 3.16 library -->
+  <script src="https://js.arcgis.com/3.16/"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/map.js"></script>
+    <style>
+    
+    </style>
+  </head>
+
+<body class="claro">
+  <nav class="navbar calcite-navbar navbar-fixed-top calcite-text-light calcite-bg-dark">
+    <!-- Menu -->
+    <div id="dropdown" class="dropdown calcite-dropdown calcite-text-dark calcite-bg-light" role="presentation">
+      <a class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+        <div class="calcite-dropdown-toggle">
+          <span class="sr-only">Toggle dropdown menu</span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
+
+
+        <ul id="dropdown-menu" class="dropdown-menu calcite-menu-drawer" >
+           <div id="ddown">          
+           <div id="tSpace">Please Choose a Category:</div>
+          <label for="category"></label>
+          <input id="category" />
+          <br><br>
+          <div id="tSpace">Please Choose a Variable:</div>
+          <label for="layerName"></label>
+          <input id="layerName" />
+          
+          <br><br>
+          <div id="slider" >
+          <ol data-dojo-type="dijit/form/HorizontalRuleLabels" container="topDecoration" style="height:1.5em;font-size:75%;color:gray;">
+        <li>1970</li>
+        <li>1980</li>
+        <li>1990</li>
+        <li>2000</li>
+        <li>ACS</li>
+        <li>2010</li>
+        </ol>
+         </div>
+    </div>
+           <div id="divLegend"></div>
+      </ul>
+    </div>
+
+
+    <!-- Title -->
+    <div class="calcite-title calcite-overflow-hidden">
+      <span class="calcite-title-main">Neighborhoods Over Time</span>
+      <span class="calcite-title-divider hidden-xs"></span>
+      <span class="calcite-title-sub hidden-xs">1970 - 2010</span>
+    </div>
+    <!-- Nav -->
+       <ul class="calcite-nav nav navbar-nav">  
+       <li id="selection" class="aa"><a role="button" id="drawPoly" onclick="getdrawingState('poly');changeColor('drawPoly');app.toolbar.activate(esri.toolbars.Draw.POLYGON);map.graphics.clear();map.infoWindow.hide()">Freehand Select</a></li>
+        <li><a role="button" id="singlePoly" onclick="getdrawingState('single');changeColor('reset');app.toolbar.deactivate(esri.toolbars.Draw.POLYGON);map.graphics.clear();map.infoWindow.hide()">Reset</a></li>  
+       <li><a role="button" id="downLD"  onclick='downloadCSV({ filename: "S4DownLoadFile.csv" });'>Download Data (Selected area)</a></li>                
+      <li><a role="button" id="divPrint"></a> </li>
+    </ul>
+
+  </nav>
+      <div id="wrapper">
+      <div id="map"> </div>
+      <div id="divSearch"></div>
+              <div id="divlogo">Brown University LTDB</div>
+          <div id="divBasemapClick">
+          <div data-dojo-type="dijit/TitlePane" data-dojo-props="title:'Select a basemap', closable:false, open:false">
+            <div id="divBasemapContent" data-dojo-type="dijit/layout/ContentPane">
+              <div id="basemapGallery"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </body>
+</html>
